@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">iLockScreen</string>
+
+    <string name="unlock_instructions">Slide to unlock</string>
+    <string name="is_active">Screen Lock Active</string>
+</resources>

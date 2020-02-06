@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@android:color/transparent"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/unlock_right" />
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/unlock_right" />
+
+
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/unlock_instructions"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@+id/imageCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/imageCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/unlock_left" />
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/imageCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/img_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/unlock_thumb" />
+
+
+</RelativeLayout>
